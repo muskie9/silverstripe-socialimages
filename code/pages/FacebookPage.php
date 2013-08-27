@@ -6,10 +6,6 @@
 		static $plural_name = 'Facebook Pages';
 		static $description = 'A page that displays data from Facebook page or profile';
 
-		/*private static $AppID;
-		private static $AppSecret;
-		private static $FacebookPageID;*/
-
 		static $db = array(
 			'DataType' => 'Enum("Albums, Events")');
 
