@@ -2,14 +2,14 @@
 	<article>
 		<h1>$Title</h1>
 		<div class="content">$Content</div>
-		<% if FacebookObjects %>
+		<% if $FacebookObjects %>
 		<ul>
-			<% if Top.DataType = Events %>
-			<% loop FacebookObjects %>
+			<% if $Top.DataType = $Events %>
+			<% loop $FacebookObjects %>
 			<% include FacebookEventSummary %>
 			<% end_loop %>
 			<% else %>
-			<% loop FacebookObjects %>
+			<% loop $FacebookObjects %>
 			<% include FacebookAlbumSummary %>
 			<% end_loop %>
 			<% end_if %>
