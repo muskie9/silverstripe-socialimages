@@ -1,0 +1,24 @@
+{
+  "name": "muskie9/facebookcontent",
+  "description": "SilverStripe module that allows for listing galleries and events managed in a user's Facebook account.",
+  "keywords": [
+    "silverstripe",
+    "module"
+  ],
+  "license": "BSD-3-Clause",
+  "type": "silverstripe-module",
+  "require": {
+    "silverstripe/framework": "^3.2",
+    "silverstripe/cms": "^3.2"
+  },
+  "authors": [
+    {
+      "name": "Nic Horstmeier",
+      "homepage": "http://muskie9.com",
+      "email": "nhorstmeier@gmail.com"
+    }
+  ],
+  "extra": {
+    "installer-name": "facebookcontent"
+  }
+}
